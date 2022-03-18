@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 17px;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+p {
+  font-weight: 400;
+}
+
+header nav .nav-bar {
+  width: 100%;
+  background-color: #292929;
+  color: white;
+  padding: 1rem 1.4rem;
+}
+header nav .nav-bar h1 {
+  border: 1px solid white;
+  display: inline-block;
+  font-weight: 500;
+  padding: 0.4rem;
+  font-size: 0.8rem;
+}
+header .home h2 {
+  color: white;
+  padding: 6rem 0 8rem 1.4rem;
+  width: 40%;
+  font-size: 2.6rem;
+  line-height: 1.4;
+}
+
+form {
+  width: 96%;
+  margin: 20px auto;
+}
+form input {
+  margin: 10px 0;
+  width: 90%;
+  padding: 10px;
+}
+
+.movie-data {
+  width: 90%;
+  margin: auto;
+}
+.movie-data .movie-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  -moz-column-gap: 0px;
+       column-gap: 0px;
+}
+.movie-data .movie-div .movies {
+  width: 90%;
+  margin: auto;
+  height: 300px;
+  line-height: 300px;
+  border-radius: 12px;
+  background-color: #000000;
+  color: #ffffff;
+}
+.movie-data .movie-div .movies h3 {
+  text-align: center;
+}
+
+@media (min-width: 700px) {
+  html {
+    font-size: 24px;
+  }
+}/*# sourceMappingURL=style.css.map */
